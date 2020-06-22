@@ -10,7 +10,7 @@ Although the webpage isn't perfect, I think it encompasses the gist of the homew
 In terms of @media, my understanding is that bootsrap already contains these in its css. I am not sure if part of the requirement was to include at least one within our html file(s). 
 
 * The URLs of the deployed application:
-file:///C:/Users/MAlvarez/Desktop/iDiscoverySolutions/Professional%20Development/MSU/Homework/css-bootstrap-homework/homepage.html
+https://mja279.github.io/css-bootstrap-homework/homepage.html
 
 * The URLs of the GitHub repository:
-https://mja279.github.io/css-bootstrap-homework/homepage.html
+https://github.com/mja279/css-bootstrap-homework
