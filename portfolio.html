@@ -2,15 +2,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>About Me</title>
+    <title>Portfolio</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.css">
+    <style>   
+        $grid-breakpoints: (
+            xs: 0,
+            sm: 480px,
+            md: 768px,
+            lg: 1024px
+          );
+        </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f5e2fd;">
-        <a class="navbar-brand" href="../css-bootstrap-homework/index.html">Maria Jimena Alvarez</a>
+        <a class="navbar-brand" href="homepage.html">Maria Jimena Alvarez</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,63 +52,73 @@
 
         <div class="album py-5 bg-light">
             <div class="container">
-
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="Assets/Kira_Profile.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Kira_Profile</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="Assets/Kira_Leash.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"/>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns= "Assets/Kira_Flowers" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"/>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center"></div>
-              </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="Assests/Kira_Teeth" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"/>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center"> </div>
-              </div>
-            </div>
-          </div>
-
         
-        </div>
+              <div class="row">
+                 <div class="col-md-6">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="Assets/Kira_Profile.jpg" width="100%" height="550" focusable="false">
+                      <div class="card-body">
+                        <p class="card-text">Hello, look at my pretty fur. Orange you glad just looking at me?
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center"></div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="Assets/Kira_Flowers.jpg" width="100%" height="550" focusable="false">
+                      <div class="card-body">
+                        <p class="card-text">Very chic in purple. 
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center"></div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="Assets/Kira_Leash.JPG" width="100%" height="550" focusable="false">
+                      <div class="card-body">
+                        <p class="card-text">When she came to us, she was timid and pretty nervous about going on walks. We bonded through leash training (although, I think it was more
+                            about the hotdogs she got as rewards that really won her over). 
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center"></div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="Assets/Kira_Teeth.jpg" width="100%" height="550" focusable="false">
+                      <div class="card-body">
+                        <p class="card-text">My favorite food is chicken, beef, rice with chicken, beef chunks, dried jerky, sometimes sweet potatoes or pumpkin, but gimme chicken!!
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center"></div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-md-6">
+                  <div class="card mb-4 shadow-sm">
+                      <img src="Assets/Kira_Playful.jpg" width="100%" height="550" focusable="false">
+                    <div class="card-body">
+                      <p class="card-text">Kira isn't the biggest fan of water, so we got her a rain jacket to help with the rainy spring days. Kira thinks putting on clothing means play time, even though 
+                          human only wants to get serious!
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="Assets/Kira_Derp.jpg" width="100%" height="550" focusable="false">
+                      <div class="card-body">
+                        <p class="card-text">Watching good ole' foster-dad dirt bike and wheelie -- he was SO good! Kira didn't mind the loud noises as long as got cuddles in between rides :)
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center"></div>
+                      </div>
+                    </div>
+                  </div>                
+              </div>
+            </div>
+          </div>
   
   </main>
 
@@ -120,7 +137,7 @@
     </style>
     <div class="footer">
         <p>
-            &copy; Last updated: 6/18/20 by M. Alvarez
+            &copy; Last updated: 6/20/20 by M. Alvarez
         </p>
     </div>
     

@@ -1,59 +1,36 @@
-
- * {
-    box-sizing: border-box;
+  .jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
   }
-  
-  /*
-    The background color will be #ccc
-    at browser widths above 768px
-  */
-  body {
-    background-color: #fff
-  }
-
-  h1{
-      float:left
-  }
-
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-    float:none
-  }
-
-@media (min-width: 768px)
-.section {
-    padding: 3rem 0;
-}
- 
-  /*
-    These rules take effect when the browser's width
-    is either 768px or less.
-  */
-  @media (max-width: 767px) {
-    {
-      width: 600px;
-      float:none
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
     }
   }
-
-.grid{
-    text-align: center;
-    justify-content: center;
-}
-
-.grid-item{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1.5rem;
-}
-
-{
-    float: center;
-    min-height: 300px;
-    margin-bottom: 30px;
-    width: 319px;
-    padding: 10px;
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron h1 {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
   }
    
   $grid-breakpoints: (
